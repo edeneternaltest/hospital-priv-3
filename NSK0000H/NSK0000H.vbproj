@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Module\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <DocumentationFile>NSK0000H.xml</DocumentationFile>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <MyType>WindowsForms</MyType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{24E09671-C3DE-4E1D-8AC1-CA4485F214D1}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>NSK0000H</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>NsAid_NSK0000H.frmNSK0000HA</StartupObject>
+    <AssemblyMajorVersion>4</AssemblyMajorVersion>
+    <AssemblyMinorVersion>0</AssemblyMinorVersion>
+    <AssemblyRevisionNumber>1</AssemblyRevisionNumber>
+    <GenerateRevisionNumber>False</GenerateRevisionNumber>
+    <AssemblyCompanyName>大阪システム部</AssemblyCompanyName>
+    <StartWithIE>False</StartWithIE>
+    <ApplicationIcon>NSK0000H.ico</ApplicationIcon>
+    <RootNamespace>NsAid_NSK0000H</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <ManifestCertificateThumbprint>A27885570885F0B860DD868A5A7310411A833823</ManifestCertificateThumbprint>
+    <ManifestKeyFile>NSK0000H_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>false</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetZone>LocalIntranet</TargetZone>
+    <PublishUrl>http://localhost/NSK0000H/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <CreateWebPageOnPublish>false</CreateWebPageOnPublish>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\Module\</OutputPath>
+    <DocumentationFile>NSK0000H.xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\Module\</OutputPath>
+    <DocumentationFile>NSK0000H.xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Module\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <DocumentationFile>NSK0000H.xml</DocumentationFile>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Module\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <DocumentationFile>NSK0000H.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Module\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <DocumentationFile>NSK0000H.xml</DocumentationFile>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="CustomText, Version=1.0.3860.29264, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CustomText.dll</HintPath>
+    </Reference>
+    <Reference Include="DATABEAN, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DATABEAN.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.Win, Version=10.0.4001.2012, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\SpreadWin10\Bin\v10.0.4001.2012\FarPoint.Win.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.Win.SpreadJ, Version=10.0.4001.2012, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\SpreadWin10\Bin\v10.0.4001.2012\FarPoint.Win.SpreadJ.dll</HintPath>
+    </Reference>
+    <Reference Include="GrapeCity.Win.PluginInputMan, Version=10.0.4001.2012, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="clsNSK0000H_sql.vb" />
+    <Compile Include="NSK0000H.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NSK0000HA.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>NSK0000HA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSK0000HB.Designer.vb">
+      <DependentUpon>NSK0000HB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSK0000HC.Designer.vb">
+      <DependentUpon>NSK0000HC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSK0000HD.Designer.vb">
+      <DependentUpon>NSK0000HD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSK0000HE.Designer.vb">
+      <DependentUpon>NSK0000HE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSK0000HG.Designer.vb">
+      <DependentUpon>NSK0000HG.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HG.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSK0000HH.Designer.vb">
+      <DependentUpon>NSK0000HH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSK0000HJ.Designer.vb">
+      <DependentUpon>NSK0000HJ.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HJ.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSK0000HK.Designer.vb">
+      <DependentUpon>NSK0000HK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSK0000HM.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>NSK0000HM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSK0000HN.Designer.vb">
+      <DependentUpon>NSK0000HN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSK0000HO.designer.vb">
+      <DependentUpon>NSK0000HO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSK0000HP.Designer.vb">
+      <DependentUpon>NSK0000HP.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSK0000HP.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="NSK0000HA.resX">
+      <DependentUpon>NSK0000HA.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSK0000HB.resX">
+      <DependentUpon>NSK0000HB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSK0000HC.resX">
+      <DependentUpon>NSK0000HC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSK0000HD.resX">
+      <DependentUpon>NSK0000HD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSK0000HE.resX">
+      <DependentUpon>NSK0000HE.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSK0000HG.resX">
+      <DependentUpon>NSK0000HG.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSK0000HH.resX">
+      <DependentUpon>NSK0000HH.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSK0000HJ.resX">
+      <DependentUpon>NSK0000HJ.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSK0000HK.resX">
+      <DependentUpon>NSK0000HK.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSK0000HM.resX">
+      <DependentUpon>NSK0000HM.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSK0000HN.resX">
+      <DependentUpon>NSK0000HN.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSK0000HO.resx">
+      <DependentUpon>NSK0000HO.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSK0000HP.resx">
+      <DependentUpon>NSK0000HP.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="NSK0000H.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\00 GENERAL\General\General.vbproj">
+      <Project>{C8C975DE-1ABD-498C-A8DE-040C3ED331D5}</Project>
+      <Name>General</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\01 NSCOMMON\NSC0000C\NSC0000C.vbproj">
+      <Project>{B7962F6D-B4D1-471B-A8C9-D2462257B317}</Project>
+      <Name>NSC0000C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\01 NSCOMMON\NSC0010C\NSC0010C.vbproj">
+      <Project>{421B1068-CB3B-45D1-9CE0-E12C26279824}</Project>
+      <Name>NSC0010C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\01 NSCOMMON\NSC0010H\NSC0010H.vbproj">
+      <Project>{F1992970-8CDC-40C9-9E63-B12639489BBD}</Project>
+      <Name>NSC0010H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\01 NSCOMMON\NSC0030C\NSC0030C.vbproj">
+      <Project>{0ABC68BF-9C5B-46ED-A062-24DE5B4C76EA}</Project>
+      <Name>NSC0030C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\01 NSCOMMON\NSC0050C\NSC0050C.vbproj">
+      <Project>{6A035EE6-3BA8-4E47-81D6-A365D12AA76E}</Project>
+      <Name>NSC0050C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\01 NSCOMMON\NSC0060C\NSC0060C.vbproj">
+      <Project>{A6BC9095-FF33-49C7-8230-BC0DE7BB52E8}</Project>
+      <Name>NSC0060C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\01 NSCOMMON\NSC0080C\NSC0080C.vbproj">
+      <Project>{7A1A7FDC-C814-41AF-813D-560D3C77CAD1}</Project>
+      <Name>NSC0080C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\01 NSCOMMON\NSC0140H\NSC0140H.vbproj">
+      <Project>{BA8500CA-6EA4-4711-8685-1FFAED311B86}</Project>
+      <Name>NSC0140H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\07 NSAPPLICATION\NSA0000C\NSA0000C.vbproj">
+      <Project>{D7744071-979B-4853-9719-1032BB974BEF}</Project>
+      <Name>NSA0000C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\07 NSAPPLICATION\NSA0050H\NSA0050H.vbproj">
+      <Project>{BE70FF0A-0CBD-4C10-96F4-171263DC1987}</Project>
+      <Name>NSA0050H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSK0010H\NSK0010H.vbproj">
+      <Project>{3D65E300-E5AB-4FE2-8005-BA7151FD862E}</Project>
+      <Name>NSK0010H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSK0020B\NSK0020B.vbproj">
+      <Project>{6D7046B7-B0B5-4DB7-8C88-0307ACFA6C0B}</Project>
+      <Name>NSK0020B</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSK0040H\NSK0040H.vbproj">
+      <Project>{ED5AFA41-F45F-4DA4-8634-56387380EC77}</Project>
+      <Name>NSK0040H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSK0070H\NSK0070H.vbproj">
+      <Project>{81A7EC78-116B-4696-97A0-5425530068A9}</Project>
+      <Name>NSK0070H</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

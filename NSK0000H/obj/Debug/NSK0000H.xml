@@ -1,0 +1,1018 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSK0000H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_STAFFHISTORY_F_02(ADODB.Recordset@,System.Int32,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intPlanNo"></param>
+ <param name="p_strStaffDataID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_SKILL_M_01(ADODB.Recordset@,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_strGiryoCD"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_NECESSARYNUM_M_01(ADODB.Recordset@)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_PERSONALKINMUCOND_F_01(ADODB.Recordset@,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intPlanNo"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_CONDITION_F_03(ADODB.Recordset@)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_SKILLSET_F_01(ADODB.Recordset@)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_KINMUIDOINFO_F_01(ADODB.Recordset@,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_strStaffDataID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_COMMONINFO_M_01(ADODB.Recordset@)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_STAFFMNGHISTORY_F_02(ADODB.Recordset@,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_strStaffMngID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_HOSPBASCHARGES_M_01(ADODB.Recordset@,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intSortIdx"></param>
+ <param name="p_intStartDate"></param>
+ <param name="p_intEndDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_NENKYU_F_02(ADODB.Recordset@,System.Object,System.Int32,System.Int32,System.Int32,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_objStaffData"></param>
+ <param name="p_intStaffIdx"></param>
+ <param name="p_intStDate"></param>
+ <param name="p_intEdDate"></param>
+ <param name="p_strHolTimeCD"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_PLANCONTROL_F_01(ADODB.Recordset@,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intPlanNo"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_PLANCONTROL_F_02(ADODB.Recordset@,System.Int32,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intKEndlng"></param>
+ <param name="p_intYYYYMMDD"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_PLANCONTROL_F_03(ADODB.Recordset@,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intPlanNo"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_PLANCONTROL_F_04(ADODB.Recordset@,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intPlanNo"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_HOLIDAYBUNRUI_M_02(ADODB.Recordset@,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_strBunruiCD"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_PLANDECISION_F_01(ADODB.Recordset@,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intPlanNo"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_PLANDECISION_F_02(ADODB.Recordset@,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intPlanNo"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_DAIKYUMNG_F_01(ADODB.Recordset@,System.Int32,System.Int32,System.String,System.Int32,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intDaikyuStartDate"></param>
+ <param name="p_intDaikyuEndDate"></param>
+ <param name="p_strStaffDataID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_DAIKYUDETAILMNG_F_01(ADODB.Recordset@,System.Int32,System.String,System.String,System.String)">
+ <summary>
+ NSK0000HJ
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intSelDate"></param>
+ <param name="p_strSelDate"></param>
+ <param name="p_strMngStaffID"></param>
+ <param name="p_strHospitalCD"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_RUIKEITIME_F_01(ADODB.Recordset@,System.String,System.Int32,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_strStaffDataID"></param>
+ <param name="p_intRuikeiStartNo"></param>
+ <param name="p_intRuikeiEndNo"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_PACKAGE_M_01(ADODB.Recordset@)">
+ <summary>
+ NSK0000HC
+ </summary>
+ <param name="w_Rs"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_KINMUPLAN_F_01(ADODB.Recordset@,System.Int32,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="w_CurrentDate"></param>
+ <param name="w_StaffID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_KINMUCHGHISTORY_F_01(ADODB.Recordset@,System.Int32,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intCurrentDate"></param>
+ <param name="p_strStaffID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_KINMUNAME_M_01(ADODB.Recordset@)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_KINMUNAME_M_02(ADODB.Recordset@)">
+ <summary>
+ NSK0000HD
+ </summary>
+ <param name="w_Rs"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_KINMUNAME_M_03(ADODB.Recordset@)">
+ <summary>
+ NSK0000HH
+ </summary>
+ <param name="w_Rs"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_KINMUNAME_M_04(ADODB.Recordset@)">
+ <summary>
+ NSK0000HJ
+ </summary>
+ <param name="w_Rs"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_KEYBOARD_F_01(ADODB.Recordset@)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_KINMURESULT_F_01(ADODB.Recordset@,System.Int32,System.Int32,System.Object,System.Int32,System.String,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="w_Rs"></param>
+ <param name="p_intSDate"></param>
+ <param name="p_intEDate"></param>
+ <param name="p_objStaffData"></param>
+ <param name="p_intStaffIdx"></param>
+ <param name="p_strOneDayKinmuCD"></param>
+ <param name="p_strHalfDayKinmuCD"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_SETKINMU_M_01(ADODB.Recordset@)">
+ <summary>
+ NSK0000HB, NSK0000HC
+ </summary>
+ <param name="w_Rs"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.select_NS_SETKINMUNAME_F_01(ADODB.Recordset@)">
+ <summary>
+ NSK0000HD
+ </summary>
+ <param name="w_Rs"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.insert_NS_KINMUPLAN_F_01(System.Int32,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_intCurrentDate"></param>
+ <param name="p_strStaffDataID"></param>
+ <param name="p_strKinmuCD"></param>
+ <param name="p_strRiyuKBN"></param>
+ <param name="p_strComment"></param>
+ <param name="p_strSysDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.insert_NS_KINMUPLAN_F_02(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_intCurrentDate"></param>
+ <param name="p_strStaffID"></param>
+ <param name="p_strKinmuCD"></param>
+ <param name="p_strRiyuKBN"></param>
+ <param name="p_strKangoCD"></param>
+ <param name="p_strComment"></param>
+ <param name="p_strSysDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.insert_NS_KINMURESULT_F_01(System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_intCurrentDate"></param>
+ <param name="p_strStaffID"></param>
+ <param name="p_strKinmuCD"></param>
+ <param name="p_strRiyuKBN"></param>
+ <param name="p_strKangoCD"></param>
+ <param name="p_strComment"></param>
+ <param name="p_strSysDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.insert_NS_NENKYU_F_01(System.String,System.Object,System.String,System.Int32,System.Int32,System.Int32,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_strStaffID"></param>
+ <param name="p_objStaffData"></param>
+ <param name="p_strDate"></param>
+ <param name="p_intSEQIdx"></param>
+ <param name="p_intIndex"></param>
+ <param name="p_intDateIdx"></param>
+ <param name="p_strSysDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.insert_NS_KINMUCHGHISTORY_F_01(System.Int32,System.String,System.Int32,System.String,System.String,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_intCurrentDate"></param>
+ <param name="p_strStaffID"></param>
+ <param name="p_intSeq"></param>
+ <param name="p_strKinmuCD_Old"></param>
+ <param name="p_strKinmuCD_New"></param>
+ <param name="p_intSysDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.insert_NS_PLANDECISION_F_01(System.Int32,System.String,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_intPlanNo"></param>
+ <param name="p_strKakuteiDate"></param>
+ <param name="p_strSysDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.insert_NS_STAFFHISTORY_F_01(System.String,System.Object,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Double)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_strPlanNo"></param>
+ <param name="p_objStaffData"></param>
+ <param name="p_intIndex"></param>
+ <param name="p_intDispNo1"></param>
+ <param name="p_intDispNo2"></param>
+ <param name="p_intDispNo3"></param>
+ <param name="p_intDispNo4"></param>
+ <param name="p_intDispNo5"></param>
+ <param name="p_dblSysDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.insert_NS_DAIKYUMNG_F_01(System.Object,System.Int32,System.Int32,System.Double)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_objStaffData"></param>
+ <param name="p_intIndex"></param>
+ <param name="p_intInt"></param>
+ <param name="p_dblSysDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.insert_NS_DAIKYUDETAILMNG_F_01(System.Object,System.Int32,System.Int32,System.Int32,System.Double)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_objStaffData"></param>
+ <param name="p_intIndex"></param>
+ <param name="p_intInt"></param>
+ <param name="p_intlngLoop"></param>
+ <param name="p_dblSysDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.insert_NS_DAIKYUDETAILMNG_F_02(System.String,System.Int32,System.Int32,System.String,System.Int32,System.String,System.Double,System.Double)">
+ <summary>
+ NSK0000HJ
+ </summary>
+ <param name="p_strMngStaffID"></param>
+ <param name="p_intSelDate"></param>
+ <param name="p_intDataLoop"></param>
+ <param name="p_strGetDaikyuType"></param>
+ <param name="p_intlngYMD"></param>
+ <param name="p_strKinmuCD"></param>
+ <param name="p_dblRegistFirstTimeDate"></param>
+ <param name="p_dblSysDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.update_NS_KINMUPLAN_F_01(System.String,System.String,System.String,System.String,System.String,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_strKinmuCD"></param>
+ <param name="p_strRiyuKBN"></param>
+ <param name="p_strComment"></param>
+ <param name="p_strSysDate"></param>
+ <param name="p_strStaffDataID"></param>
+ <param name="p_intCurrentDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.update_NS_KINMUPLAN_F_02(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_strKinmuCD"></param>
+ <param name="p_strRiyuKBN"></param>
+ <param name="p_strKangoCD"></param>
+ <param name="p_strComment"></param>
+ <param name="p_strSysDate"></param>
+ <param name="p_intCurrentDate"></param>
+ <param name="p_strStaffID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.update_NS_KINMUPLAN_F_03(System.String,System.String,System.String,System.String,System.Int32,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_strKinmuCD"></param>
+ <param name="p_strRiyuKBN"></param>
+ <param name="p_strComment"></param>
+ <param name="p_strSysDate"></param>
+ <param name="p_intCurrentDate"></param>
+ <param name="p_strStaffDataID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.update_NS_KINMURESULT_F_01(System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_strKinmuCD"></param>
+ <param name="p_strRiyuKBN"></param>
+ <param name="p_strKangoCD"></param>
+ <param name="p_strComment"></param>
+ <param name="p_strSysDate"></param>
+ <param name="p_intCurrentDate"></param>
+ <param name="p_strStaffID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.update_NS_KINMURESULT_F_03(System.String,System.String,System.String,System.Boolean,System.String,System.String,System.String,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_strKinmuCD"></param>
+ <param name="p_strRiyuKBN"></param>
+ <param name="p_strKangoCD"></param>
+ <param name="p_blnSaveType"></param>
+ <param name="p_strComment"></param>
+ <param name="p_strSysDate"></param>
+ <param name="p_strStaffID"></param>
+ <param name="p_strCurrentDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.update_NS_PLANDECISION_F_01(System.String,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_intSysDate"></param>
+ <param name="p_strPlanNo"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.update_NS_STAFFHISTORY_F_01(System.Object,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_objStaffData"></param>
+ <param name="p_intIndex"></param>
+ <param name="p_intDispNo1"></param>
+ <param name="p_intDispNo2"></param>
+ <param name="p_intDispNo3"></param>
+ <param name="p_intDispNo4"></param>
+ <param name="p_intDispNo5"></param>
+ <param name="p_dblSysDate"></param>
+ <param name="p_intPlanNo"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.delete_NS_KINMUPLAN_F_01(System.String,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_strStaffDataID"></param>
+ <param name="p_intCurrentDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.delete_NS_NENKYU_F_01(System.Int32,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_intDate"></param>
+ <param name="p_strStaffID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.delete_NS_KINMURESULT_F_01(System.Int32,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_intDateF"></param>
+ <param name="p_strStaffMngID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.delete_NS_KINMUCHGHISTORY_F_01(System.Int32,System.String)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_intCurrentDate"></param>
+ <param name="p_strStaffID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.delete_NS_PLANDECISION_F_01(System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_intPlanNo"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.delete_NS_DAIKYUMNG_F_01(System.Object,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_objStaffData"></param>
+ <param name="p_intIndex"></param>
+ <param name="p_intDaikyuStartDate"></param>
+ <param name="p_intDaikyuEndDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.delete_NS_DAIKYUDETAILMNG_F_01(System.Object,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ NSK0000HA
+ </summary>
+ <param name="p_objStaffData"></param>
+ <param name="p_intIndex"></param>
+ <param name="p_intDaikyuStartDate"></param>
+ <param name="p_intDaikyuEndDate"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.clsNSK0000H_sql.delete_NS_DAIKYUDETAILMNG_F_02(System.Int32,System.String)">
+ <summary>
+ NSK0000HJ
+ </summary>
+ <param name="p_intSelDate"></param>
+ <param name="p_strMngStaffID"></param>
+ <returns></returns>
+</member>
+<member name="M:NsAid_NSK0000H.BasNSK0000H.GenerateRandomKeyAndSetDictionary(System.Int32,System.String,System.Collections.Generic.Dictionary{System.String,System.String}@)">
+ <summary>
+ ランダムな文字列を生成し、それをKeyとしてDictionaryにValueとなるデータを格納
+ </summary>
+ <param name="p_Len">生成する文字列の長さ</param>
+ <param name="p_Val">Valueとなるデータ</param>
+ <param name="p_Dic">Dictionary</param>
+ <returns>生成された文字列</returns>
+</member>
+<member name="M:NsAid_NSK0000H.BasNSK0000H.Set_NenkyuTime(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+ <summary>
+ 時間休の各項目から時間休文字列作成
+ </summary>
+ <param name="p_BunruiCD">休暇分類コード</param>
+ <param name="p_FromTime">開始時刻</param>
+ <param name="p_ToTime">終了時刻</param>
+ <param name="p_DateKbn">翌日フラグ</param>
+ <param name="p_NenkyuTime">年休取得時間</param>
+ <param name="p_HolSubFlg">休憩減算フラグ</param>
+ <param name="p_DayTime">日勤時間</param>
+ <param name="p_NightTime">夜勤時間</param>
+ <param name="p_NextNightTime">翌日夜勤時間</param>
+ <returns>時間休文字列</returns>
+</member>
+<member name="M:NsAid_NSK0000H.BasNSK0000H.Get_NenkyuTime(System.String,System.String@,System.Int32@)">
+ <summary>
+ 時間休文字列から休暇分類と取得時間を取得する
+ </summary>
+ <param name="p_Time">時間休文字列</param>
+ <param name="p_BunruiCD">休暇分類コード</param>
+ <param name="p_NenkyuTime">年休取得時間</param>
+ <returns>復元済分を取り除いた時間休文字列</returns>
+</member>
+<member name="M:NsAid_NSK0000H.BasNSK0000H.Get_NenkyuTime(System.String,System.Int32@,System.Int32@,System.Int32@)">
+ <summary>
+ 時間休文字列から日勤・夜勤・翌夜勤時間を取得する
+ </summary>
+ <param name="p_Time">時間休文字列</param>
+ <param name="p_DayTime">日勤時間</param>
+ <param name="p_NightTime">夜勤時間</param>
+ <param name="p_NextNightTime">翌日夜勤時間</param>
+ <returns>復元済分を取り除いた時間休文字列</returns>
+</member>
+<member name="M:NsAid_NSK0000H.BasNSK0000H.Get_NenkyuTime(System.String,System.String@,System.Int32@,System.Int32@,System.String@,System.Int32@,System.String@,System.Int32@,System.Int32@,System.Int32@)">
+ <summary>
+ 時間休文字列から各種パラメータを復元する
+ </summary>
+ <param name="p_Time">時間休文字列</param>
+ <param name="p_BunruiCD">休暇分類コード</param>
+ <param name="p_FromTime">開始時刻</param>
+ <param name="p_ToTime">終了時刻</param>
+ <param name="p_DateKbn">翌日フラグ</param>
+ <param name="p_NenkyuTime">年休取得時間</param>
+ <param name="p_HolSubFlg">休憩減算フラグ</param>
+ <param name="p_DayTime">日勤時間</param>
+ <param name="p_NightTime">夜勤時間</param>
+ <param name="p_NextNightTime">翌日夜勤時間</param>
+ <returns>復元済分を取り除いた時間休文字列</returns>
+</member>
+<member name="M:NsAid_NSK0000H.BasNSK0000H.HHmmToMin(System.Int32)">
+ <summary>
+ HHmm形式を分数に変換
+ </summary>
+ <param name="p_HHmm">HHmm</param>
+ <returns>分数</returns>
+</member>
+<member name="M:NsAid_NSK0000H.BasNSK0000H.IsNumOrFuncKey(System.Windows.Forms.Keys)">
+ <summary>
+ 押下キー判定
+ </summary>
+ <param name="p_key"></param>
+ <returns></returns>
+ <remarks>キーボード対応キーかどうか判定する</remarks>
+</member>
+<member name="M:NsAid_NSK0000H.BasNSK0000H.Get_ItemValue(System.String)">
+ <summary>
+ 項目設定「勤務記号全角２文字対応フラグ」取得
+ </summary>
+ <param name="p_HospitalCD">病院CD</param>
+ <returns>String ("0"：対応しない、"1":対応する)</returns>
+ <remarks>勤務記号全角２文字対応フラグ(0：対応しない、1:対応する)</remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.Calc_YakanKango2(System.Int32,System.Double,System.Double,System.Int32,System.Int32)">
+ <summary>
+ H28年度版様式９に合わせた計算
+ （メソッド内に準拠した説明あり）
+ </summary>
+ <param name="p_Idx">職員インデックス</param>
+ <param name="p_NightTime">夜勤時間合計</param>
+ <param name="p_TotalNightTime">総夜勤時間合計</param>
+ <param name="p_Flg"></param>
+ <param name="p_Cnt"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.DeleteAllDataNormal">
+ <summary>
+ 勤務記号消去（通常勤務のみ）
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.updOvKnmApprvRuikei">
+ <summary>
+ 時間外届出累計バッチ起動処理
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.Get_KeyBoardKinmu">
+ <summary>
+ キーボード対応勤務取得
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.getEventData">
+ <summary>
+ 行事予定データ取得
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.setEventData">
+ <summary>
+ 行事予定を表示する
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.chkEventTargetStaff(System.String,System.Int32,NsAid_NSK0000H.BasNSK0000H.EventList_Type[]@)">
+ <summary>
+ 行事予定対象者か判定
+ </summary>
+ <param name="p_mngid"></param>
+ <param name="p_date"></param>
+ <param name="p_kojoEve"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.fncGetEventDetailString(System.String,System.Int32,System.Boolean)">
+ <summary>
+ 文字列作成（行事予定明細用）
+ </summary>
+ <param name="p_strValue"></param>
+ <param name="p_maxLetter"></param>
+ <param name="p_eveFlg"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.fncStringNewline(System.String,System.Int32,System.Int32,System.Boolean)">
+ <summary>
+ 文字列の編集
+ </summary>
+ <param name="p_strValue"></param>
+ <param name="p_Index"></param>
+ <param name="p_maxLetter"></param>
+ <param name="p_eveFlg"></param>
+ <returns></returns>
+ 引数　p_strValue　文字列　改行する文字列を設定
+ 編集する文字列を何byteで改行するかを設定　p_strValue
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.subGetNightShortData(System.Int32,System.Int32)">
+ <summary>
+ 対象職員の夜勤専従・短時間者情報取得
+ </summary>
+ <param name="p_from">期間開始日</param>
+ <param name="p_to">期間終了日</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.fncGetEmpMark(System.Int32,System.Int32,System.Int32,System.String@,System.Drawing.Color@)">
+ <summary>
+ 採用条件記号取得
+ </summary>
+ <param name="p_idx"></param>
+ <param name="p_from"></param>
+ <param name="p_to"></param>
+ <param name="p_dispMark"></param>
+ <param name="p_dispColor"></param>
+ <returns></returns>
+ <remarks>採用条件列に表示する記号とカラーを取得する</remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.fncGetTxtEmpData(System.Int32)">
+ <summary>
+ 採用条件ツールチップ生成
+ </summary>
+ <param name="p_row"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.fncFmtTipTxt(System.String)">
+ <summary>
+ ツールチップテキスト編集
+ </summary>
+ <param name="stTarget"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HA.subChgSpreadKeyMap">
+ <summary>
+ スプレッドデフォルトキー無効化
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:NsAid_NSK0000H.frmNSK0000HA.VerticalTextCell">
+ <summary>
+ スプレッドの縦書き設定クラス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HC.fncChkAppliData(System.Int32)">
+ <summary>
+ 届出データ存在チェック
+ </summary>
+ <param name="p_YYYYMMDD"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HC.subChgSpreadKeyMap">
+ <summary>
+ スプレッドデフォルトキー無効化
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HC.sprSheet_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ キーダウン判定
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HC.pasteKeyBoardKinmu(System.String)">
+ <summary>
+ 勤務貼り付け（指定勤務コード）
+ </summary>
+ <param name="p_kinmuCd"></param>
+ <remarks>キーボード対応で使用</remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HC.IsExistBackColor(FarPoint.Win.Spread.FpSpread,System.Int32,System.Int32)">
+ <summary>
+ 背景色チェック
+ </summary>
+ <param name="p_spr"></param>
+ <param name="p_row"></param>
+ <param name="p_col"></param>
+ <returns></returns>
+ <remarks>通常カラーかどうか判定</remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HC.DispNightShortInfo">
+ <summary>
+ 夜勤専従・短時間情報表示
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSK0000H.frmNSK0000HE.pPlanInfo(System.String,System.String)">
+ <summary>計画期間情報を受け取る</summary>
+ <param name="p_FromYMD">表示開始日</param>
+ <param name="p_ToYMD">表示終了日</param>
+ <param name="Value">計画番号</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSK0000H.frmNSK0000HE.pStaffData">
+ <summary>職員情報を受け取る</summary>
+ <param name="Value">職員情報</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSK0000H.frmNSK0000HE.pTekiyouFlg">
+ <summary>適用ボタン終了フラグを上位画面に引き渡す</summary>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSK0000H.frmNSK0000HE.pSelSaveNo">
+ <summary>選択された保存番号を上位画面に引き渡す</summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HE.frmNSK0000HE_Load(System.Object,System.EventArgs)">
+ <summary>
+ frmNSK0000HEフォームLoadイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>frmNSK0000HEをLoadし、表示する</remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HE.GetSaveData">
+ <summary>
+ 一時保存一覧の取得
+ 概要:勤務計画画面を開いている部署・計画期間で取得。
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HE.sprSaveList_CellClick(System.Object,FarPoint.Win.Spread.CellClickEventArgs)">
+ <summary>
+ Spreadセル押下時の処理
+ </summary>
+ <param name="sender"></param>
+ <param name="EventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HE.SetSelectData(System.Int32)">
+ <summary>
+ 選択行の背景色変更
+ </summary>
+ <param name="p_Row">選択行</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HE.cmdSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ cmdSaveボタンClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>一時保存データの削除・保存・再読込</remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HE.DeleteSaveData">
+ <summary>
+ 一時保存データの削除
+ </summary>
+ <remarks>
+ 以下のテーブルからデータを削除する。
+    ・一時保存予定一覧Ｆ
+    ・一時保存勤務予定Ｆ
+    ・一時保存勤務詳細Ｆ
+    ・一時保存年休Ｆ
+ </remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HE.InsertSaveData">
+ <summary>
+ 一時保存データの保存
+ </summary>
+ <remarks>
+ 以下のテーブルにデータを登録する。
+    ・一時保存予定一覧Ｆ
+    ・一時保存勤務予定Ｆ
+    ・一時保存勤務詳細Ｆ
+    ・一時保存年休Ｆ
+    ・一時保存代休Ｆ
+ </remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HE.cmdApply_Click(System.Object,System.EventArgs)">
+ <summary>
+ cmdApplyボタンClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HE.cmdClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ cmdCloseボタンClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>画面を閉じる</remarks>
+</member>
+<member name="T:NsAid_NSK0000H.frmNSK0000HO">
+ <summary>
+ 行事一覧画面(NSK0000HO)
+ </summary>
+ <remarks>
+ 規定値：画面ＩＤ　"NSK0000HO"
+         画面名称　"行事一覧画面"
+ </remarks>
+ <history>
+ ===================================================================
+ 更新履歴
+ 項番       更新日付        担当者       更新内容
+ 0001       2012/07/**      ******　 　　P-*****（新規作成。パッケージバージョンアップ）
+ ===================================================================
+ </history>
+</member>
+<member name="T:NsAid_NSK0000H.frmNSK0000HO.EventList">
+ <summary>
+ 行事一覧のリスト定数クラス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:NsAid_NSK0000H.frmNSK0000HO.EventStaff">
+ <summary>
+ 行事参加者のリスト定数クラス
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSK0000H.frmNSK0000HO.pShowFlg">
+ <summary>
+ 表示フラグ
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSK0000H.frmNSK0000HO.pEventData">
+ <summary>
+ 行事予定情報を設定
+ </summary>
+ <value></value>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSK0000H.frmNSK0000HO.pSelDate">
+ <summary>
+ 選択日付を設定
+ </summary>
+ <value></value>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HO.frmNSK0000HO_Load(System.Object,System.EventArgs)">
+ <summary>
+ フォームロード
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HO.frmNSK0000HO_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+ <summary>
+ フォームクロージング
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HO.frmNSK0000HO_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+ <summary>
+ フォームクローズド
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HO.frmNSK0000HO_Activated(System.Object,System.EventArgs)">
+ <summary>
+ フォームアクティブ
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HO.cmdClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ 閉じるボタン押下
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HO.lstEventList_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ 行事一覧選択
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HO.setEventListData">
+ <summary>
+ 行事一覧リストビュー生成
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HO.setEventStaffData">
+ <summary>
+ 行事参加者リストビュー生成
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSK0000H.frmNSK0000HO.getConvTime(System.Int16)">
+ <summary>
+ 時間フォーマット変更
+ </summary>
+ <param name="p_time"></param>
+ <returns>String型</returns>
+ <remarks>HHMM→HH:MM</remarks>
+</member>
+</members>
+</doc>
